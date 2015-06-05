@@ -20,9 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # Runtime
-  s.add_dependency('spree',      '~> 2.3.10')
-  s.add_dependency('sass-rails', '~> 4.0.2')
-  s.add_dependency('compass-rails')
+  s.add_dependency('spree', '~> 2.4.0')
 
   # Development
   s.add_development_dependency('spree_sample',     '~> 2.2.0.beta')
